@@ -250,3 +250,54 @@ gap: 48px;
      margin-bottom: 32px;
  }
 }
+/* Visual Showcase */
+.gallery-container {
+    position: relative;
+}
+.gallery-label{
+    width: 134px;
+}
+
+
+.gallery-text {
+font-weight: 600;
+margin-bottom: 32px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Пагінація як полоска */
+.gallery-pagination {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.gallery-pagination .swiper-pagination-bullet {
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    background: #ddd8d2;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.gallery-pagination .swiper-pagination-bullet-active {
+    background: #20232a;
+    width: 80px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .gallery-text {
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+font-size: 20px;
+        margin-bottom: 48px;
+    }
+}
