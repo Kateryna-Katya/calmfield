@@ -122,3 +122,45 @@ gap: 48px;
     width: 492px;
  }
 }
+/* How It Works */
+.how-label{
+    width: 120px;
+}
+.how-text{
+        font-weight: 600;
+}
+.how-list{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.how-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd8d2;
+        border-radius: 8px;
+        padding: 10px 24px;
+        width: 343px;
+        height: auto;
+        text-align: left;
+}
+@media only screen and (min-width: 1440px) {
+ .how-text{
+    font-size: 20px;
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .how-list{
+    margin-top: 48px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+ }
+ .how-item{
+    width: 420px;
+ }
+}
