@@ -473,4 +473,13 @@ border-bottom: 1px solid #ddd8d2;
  .contact-title{
     font-size: 24px;
  }
+ .contact-link{
+    gap: 16px;
+ }
+ .contact-mail {
+width: 318px;
+ }
+ .contact-btn{
+width: 112px;
+ }
 }
