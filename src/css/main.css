@@ -209,3 +209,44 @@ margin-bottom: 48px;
 height: 409px !important;
 }
 }
+/* Atmosphere */
+.atmosphere-wrapper{
+    border-radius: 24px;
+        padding: 40px 24px;
+        width: 343px;
+        height: 673px;
+background: #3d3d5c;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 48px;
+}
+.atmosphere-title{
+        color: #f2f2f2;
+    text-align: left;
+}
+.atmosphere-text{
+        color: #f2f2f2;
+            text-align: left;
+            font-weight: 600;
+}
+.atmosphere-list{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+@media only screen and (min-width: 1440px) {
+ .atmosphere-wrapper{
+    padding: 64px;
+        width: 1312px;
+        height: 619px;
+        flex-direction: row-reverse;
+ }
+ .atmosphere-text{
+    font-size: 20px;
+    width: 470px;
+ }
+ .atmosphere-list {
+     margin-top: 32px;
+     margin-bottom: 32px;
+ }
+}
